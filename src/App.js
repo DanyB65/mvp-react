@@ -17,7 +17,7 @@ function App() {
     fetch("http://localhost:3001/ticketInfo")
       .then((response) => response.json())
       .then((data) => setTicketInfo(data));
-      console.log(ticketInfo)
+      
   }, []);
 
   return (

@@ -10,7 +10,7 @@ const FourmBoxList = ({ setFourmBoxClicked, address, setFourmData, setFourmBoxLi
   const [putIssue, setPutIssue] = useState(issue);
   const [putAddress, setPutAddress] = useState(location.address)
   const [putRequest,setPutRequest] = useState([])
-console.log(location)
+
   
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [disabled, setDisabled] = useState(true);
